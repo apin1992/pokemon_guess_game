@@ -70,4 +70,4 @@ def game():
     return render_template("game.html", shadow_image=current["shadow"])
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False, host="0.0.0.0", port=5000)
