@@ -1,4 +1,4 @@
-![Gameplay Screenshot](statci/images/screenshot.png)
+![Gameplay Screenshot](static/images/screenshot.png)
 
 # Pokémon Guessing Game 🎮
 
