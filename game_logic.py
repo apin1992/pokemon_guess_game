@@ -8,7 +8,7 @@ POKEMONS = [
     {"name": "pikachu", "shadow": "pikachu_shadow.png", "real": "pikachu.png"},
     {"name": "koffing", "shadow": "koffing_shadow.png", "real": "koffing.png"},
     {"name": "mewtwo", "shadow": "mewtwo_shadow.png", "real": "mewtwo.png"},
-    {"name": "psyduck", "shadow": "psyduck_shadow.png", "real": "psyduck.png"},
+    {"name": "psyduck", "shadow": "psyduck_shadow.png", "real": "psyduck.jpeg"},
     {"name": "snorlax", "shadow": "snorlax_shadow.png", "real": "snorlax.png"}
 ]
 
