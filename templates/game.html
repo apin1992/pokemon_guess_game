@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Who's That Pokémon?</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Who's That Pokémon?</h1>
+    <img src="{{ url_for('static', filename='images/' + shadow_image) }}" alt="Pokemon shadow">
+    
+    <form method="POST">
+      <input type="text" name="pokemon_guess" placeholder="Enter your guess" required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

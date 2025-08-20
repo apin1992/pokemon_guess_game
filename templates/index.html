@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pokémon Game</title>
+</head>
+<body>
+  <h1>Who's That Pokémon?</h1>
+
+  <img src="{{ url_for('static', filename='images/bulbasaur_shadow.png') }}" 
+       alt="Pokemon shadow" width="300">
+
+  <form method="POST" action="/guess">
+    <input type="text" name="pokemon_guess" placeholder="Enter your guess" required>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

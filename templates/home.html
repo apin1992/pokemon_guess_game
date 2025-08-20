@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pokémon Guessing Game</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Pokémon Guessing Game</h1>
+    <p>Can you guess all the Pokémon from their shadows? Try your best!</p>
+    <a href="{{ url_for('game') }}"><button>Start Game</button></a>
+  </div>
+</body>
+</html>
+
